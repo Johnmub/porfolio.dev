@@ -25,3 +25,7 @@
 </a>
 
 <p></p>
+
+
+## Netlyfy Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f3066248-85e3-4d4e-ab46-c984d5ced652/deploy-status)](https://app.netlify.com/sites/johnmub/deploys)
