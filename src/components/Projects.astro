@@ -2,6 +2,8 @@
 import GitHub from "./icons/GitHub.astro"
 import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
+import Html from './icons/Html.astro';
+import Php from './icons/Php.astro';
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 
@@ -11,6 +13,16 @@ const TAGS = {
     class: "bg-black text-white",
     icon: NextJS,
   },
+  HTML: {
+    name: "HTML",
+    class: "bg-gray-100 text-black",
+    icon: Html,
+  },
+  PHP: {
+    name: "Php",
+    class: "bg-blue-600 text-white",
+    icon: Php,
+  },
   TAILWIND: {
     name: "Tailwind CSS",
     class: "bg-[#003159] text-white",
@@ -19,21 +31,21 @@ const TAGS = {
 }
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
+    title: "The Ink Monsters LLC",
     description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
-    image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "Tienda en línea personalizable para la compra y venta de productos físicos. Los usuarios pueden personalizar productos en línea, hacer seguimiento de pedidos y realizar pagos de forma segura.",
+    link: null,
+    github: null,
+    image: "/projects/theinkmonsters.webp",
+    tags: [TAGS.PHP, TAGS.TAILWIND],
   },
   {
-    title: "AdventJS - Retos de programación con JavaScript y TypeScript",
+    title: "OralTech",
     description:
-      "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://adventjs.dev",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "Página informativa y de contacto sobre servicios de odontología y diseño de sonrisa.",
+    link: "https://oraltechodontologia.com/",
+    image: "/projects/oraltech.webp",
+    tags: [TAGS.HTML, TAGS.TAILWIND],
   },
 ]
 ---
