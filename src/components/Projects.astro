@@ -3,6 +3,7 @@ import GitHub from "./icons/GitHub.astro"
 import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
 import Html from './icons/Html.astro';
+import Binance from './icons/Binance.astro';
 import Php from './icons/Php.astro';
 import Wordpress from './icons/Wordpress.astro';
 import Link from "./icons/Link.astro"
@@ -29,6 +30,11 @@ const TAGS = {
     class: "bg-slate-800 text-white",
     icon: Wordpress,
   },
+  BINANCE: {
+    name: "Binance",
+    class: "bg-slate-800 text-white",
+    icon: Binance,
+  },
   TAILWIND: {
     name: "Tailwind CSS",
     class: "bg-[#003159] text-white",
@@ -44,6 +50,14 @@ const PROJECTS = [
     github: null,
     image: "/projects/theinkmonsters.webp",
     tags: [TAGS.PHP, TAGS.WORDPRESS, TAGS.TAILWIND],
+  },
+  {
+    title: "Besa Gaming",
+    description:
+      "Plataforma para la compra y venta de NFTs dentro de la red de Binance Smart Chain. ",
+    link: null,
+    image: "/projects/besa.webp",
+    tags: [TAGS.NEXT, TAGS.BINANCE, TAGS.TAILWIND],
   },
   {
     title: "Decocristal",
