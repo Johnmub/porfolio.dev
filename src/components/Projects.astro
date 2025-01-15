@@ -4,6 +4,7 @@ import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
 import Html from './icons/Html.astro';
 import Php from './icons/Php.astro';
+import Wordpress from './icons/Wordpress.astro';
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 
@@ -20,8 +21,13 @@ const TAGS = {
   },
   PHP: {
     name: "Php",
-    class: "bg-blue-600 text-white",
+    class: "bg-blue-500 text-white",
     icon: Php,
+  },
+  WORDPRESS: {
+    name: "Wordpress",
+    class: "bg-slate-800 text-white",
+    icon: Wordpress,
   },
   TAILWIND: {
     name: "Tailwind CSS",
@@ -37,7 +43,15 @@ const PROJECTS = [
     link: null,
     github: null,
     image: "/projects/theinkmonsters.webp",
-    tags: [TAGS.PHP, TAGS.TAILWIND],
+    tags: [TAGS.PHP, TAGS.WORDPRESS, TAGS.TAILWIND],
+  },
+  {
+    title: "Decocristal",
+    description:
+      "Página informativa y de contacto sobre servicios de diseño y arquitectura.",
+    link: "https://www.decocristal.com.ve/",
+    image: "/projects/decocristal.webp",
+    tags: [TAGS.PHP, TAGS.WORDPRESS, TAGS.TAILWIND],
   },
   {
     title: "OralTech",
